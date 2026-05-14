@@ -372,10 +372,10 @@ describe("schema parsing tests", () => {
                             `${date
                                 .getHours()
                                 .toString()
-                                .padStart(2, "0")}:${date
+                                .padStart(6, "0")}:${date
                                 .getMinutes()
                                 .toString()
-                                .padStart(2, "0")}`
+                                .padStart(6, "0")}`
                     )
             );
 
